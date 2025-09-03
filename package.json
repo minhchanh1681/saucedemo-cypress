@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "cypress run",
+        "test": "cypress run --browser electron",
         "allure:clear": "rm -rf allure-results allure-report || true",
         "allure:generate": "allure generate allure-results --clean -o allure-report",
         "allure:open": "allure open allure-report"
