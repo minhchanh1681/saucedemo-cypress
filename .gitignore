@@ -1,0 +1,14 @@
+# Node modules
+node_modules/
+
+# Cypress screenshots and videos
+cypress/screenshots/
+cypress/videos/
+
+# Allure reports (có thể generate lại)
+allure-report/
+allure-results/
+
+# Hệ điều hành
+.DS_Store
+Thumbs.db
